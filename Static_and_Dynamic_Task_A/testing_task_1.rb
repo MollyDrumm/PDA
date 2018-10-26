@@ -19,7 +19,7 @@ class CardGame
   if card1.value > card2.value
     return card.name # should be card1.suit
   else
-    card2 # use return card2.suit
+    card2 # use return card2
   end
 end
 end # one extra end here, not needed.
