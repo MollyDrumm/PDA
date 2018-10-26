@@ -7,7 +7,7 @@ require_relative('card.rb')
 class CardGame
 
 
-  def checkforAce(card) # should use cammel case for best practise
+  def checkforAce(card) # should use snake case for best practise
     if card.value = 1 # should be ==
       return true
     else
@@ -19,7 +19,7 @@ class CardGame
   if card1.value > card2.value
     return card.name # should be card1.suit
   else
-    card2 # use return card2
+    card2 # use return card2.suit
   end
 end
 end # one extra end here, not needed.
